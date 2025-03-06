@@ -1,6 +1,6 @@
 # 📊 GDP and Productivity of Indian Cities
 
-🚀 **Live Demo:** [Project Link](https://dash-board-client2.vercel.app/)  
+## Live Demo: [project hosted](https://dash-board-client2.vercel.app/)  
 ## Dataset: [Kaggle](https://www.kaggle.com/datasets/sudhanvahg/gdp-and-productivity-of-indian-cities-2019-2024)
 
 ## 📌 Overview  
