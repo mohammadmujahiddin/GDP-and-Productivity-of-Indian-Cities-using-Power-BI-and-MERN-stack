@@ -13,6 +13,7 @@ mongoose
   .then(() => console.log("✅ Connected to MongoDB"))
   .catch((err) => console.log("❌ MongoDB Error:", err));
 
+
 // Register API
 app.post("/register", async (req, res) => {
  try {
@@ -70,3 +71,7 @@ app.post("/api/login", async (req, res) => {
 });
 
 app.listen(5000, () => console.log("🚀 Server running on port 5000"));
+
+app.get("/", (req, res) => {
+  res.send("Backend is running! 🚀");
+});

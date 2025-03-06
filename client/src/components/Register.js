@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { registerUser } from "../services/authService";
 
 const Register = () => {
@@ -11,7 +10,6 @@ const Register = () => {
     password: "",
   });
   const [error, setError] = useState("");
-  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -26,24 +24,30 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError(""); // Clear previous errors
-
+  
     if (!isValidPassword(formData.password)) {
       setError("Password must be at least 8 characters long and include an uppercase letter, lowercase letter, and a number.");
       return;
     }
-
+  
     try {
-      await registerUser(formData);
-      navigate("/login"); // Redirect to login after registration
+      const response = await registerUser(formData);
+      
+      if (response.success) { 
+        alert("Registration successful! Please login...");
+      } else {
+        setError(response.message || "Registration failed. Please try again.");
+      }
     } catch (err) {
       setError(err.message || "Registration failed. Please try again.");
     }
   };
+  
 
   return (
     <div className="auth-container">
       <div className="auth-box">
-      <h1>Power BI Dashboard</h1>
+      <h1>Economy Productivity of India</h1>
         <h2>Register</h2>
         {error && <p className="error">{error}</p>}
         <form onSubmit={handleSubmit}>
