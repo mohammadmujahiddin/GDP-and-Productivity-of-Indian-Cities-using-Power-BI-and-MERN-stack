@@ -1,3 +1,60 @@
+# 📊 Economic Insights Dashboard  
+
+🚀 **Live Demo:** [Dashboard Link](https://dash-board-client2.vercel.app/)  
+
+## 📌 Overview  
+This **Power BI Dashboard** provides deep insights into **India's economic trends, innovation, workforce, and market analysis**.  
+It visualizes key economic indicators such as **R&D spending, patents, ICT employment, and SME growth**, allowing users to analyze trends effectively.  
+
+---
+
+## 🌟 Features  
+✅ **Power BI Embedded Dashboard** – Interactive economic insights  
+✅ **Key Economic Indicators** – GDP, R&D spending, patents, workforce analysis  
+✅ **Secure Authentication System** – User login & registration  
+✅ **Modern UI & Dark Theme** – With smooth animations  
+✅ **Fully Responsive & Mobile-Friendly Design**  
+
+---
+
+## 📈 Insights Covered  
+
+### 🔹 **Innovation & Research**  
+- 📌 **773.4 patents per 100,000 inhabitants** across 30 cities.  
+- 💰 **R&D expenditure reached 40% of GDP** in 2024.  
+- 🏛️ **Delhi led with 4.6 patents per 100,000 inhabitants** in 2024.  
+
+### 🔹 **Employment & Workforce Trends**  
+- 💻 **ICT sector employment highest in Chennai (24.9%)** in 2019.  
+- 📉 **Unemployment rate fluctuated between 170% and 300%.**  
+- 🏢 **SME employment trends linked to youth unemployment rates.**  
+
+### 🔹 **Economic & Market Trends**  
+- 📈 **Stock market volatility remains high in Q1 2024.**  
+- 🔋 **Renewable energy adoption rose by 35% in 2024.**  
+- 📊 **Productivity and workforce efficiency insights for urban & rural areas.**  
+
+---
+
+## 🛠️ Technologies Used  
+🔹 **Frontend:** React.js, CSS, Power BI Embedded  
+🔹 **Backend:** Node.js, Express.js, MongoDB  
+🔹 **Deployment:** Vercel (Frontend), Render (Backend)  
+
+---
+## login page
+![image](https://github.com/user-attachments/assets/142e7f52-fb28-4072-9a23-d9dd9c48caa2)
+## register page
+![image](https://github.com/user-attachments/assets/9ee228ec-5177-4751-9d9e-858289dc000f)
+## Dashboard page
+![image](https://github.com/user-attachments/assets/8b589ff2-71ff-4dd2-abdd-ebb8dd84c5bb)
+![image](https://github.com/user-attachments/assets/a00ec381-7aa9-4d70-8cae-08a331b6ef79)
+![image](https://github.com/user-attachments/assets/0081ae8d-08e3-4313-a124-e062a4163240)
+
+
+
+
+## 🚀 Installation Guide  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
