@@ -1,6 +1,7 @@
-# 📊 Economic Insights Dashboard  
+# 📊 GDP and Productivity of Indian Cities
 
-🚀 **Live Demo:** [Dashboard Link](https://dash-board-client2.vercel.app/)  
+🚀 **Live Demo:** [Project Link](https://dash-board-client2.vercel.app/)  
+## Dataset: [Kaggle](https://www.kaggle.com/datasets/sudhanvahg/gdp-and-productivity-of-indian-cities-2019-2024)
 
 ## 📌 Overview  
 This **Power BI Dashboard** provides deep insights into **India's economic trends, innovation, workforce, and market analysis**.  
@@ -42,9 +43,9 @@ It visualizes key economic indicators such as **R&D spending, patents, ICT emplo
 🔹 **Deployment:** Vercel (Frontend), Render (Backend)  
 
 ---
-## login page
+## Login page
 ![image](https://github.com/user-attachments/assets/142e7f52-fb28-4072-9a23-d9dd9c48caa2)
-## register page
+## Register page
 ![image](https://github.com/user-attachments/assets/9ee228ec-5177-4751-9d9e-858289dc000f)
 ## Dashboard page
 ![image](https://github.com/user-attachments/assets/8b589ff2-71ff-4dd2-abdd-ebb8dd84c5bb)
